@@ -10,3 +10,11 @@ export interface Movie{
   backdrop:string;
 }
 
+export interface FullMovie extends Movie{
+  genres:string[];
+  duartion: number;
+  budget: number;
+  originalTitle:string;
+  productionCompanies: string[];
+}
+
